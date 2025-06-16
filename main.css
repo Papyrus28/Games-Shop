@@ -4,10 +4,6 @@
     box-sizing:border-box ;
 }
 
-* {
-    background-color: black;
-}
-
 header,
 section h2,
 section h3,
@@ -34,6 +30,7 @@ header nav li {
 
 header nav li a {
     color:#ecf0f1;
+    text-transform: uppercase;
 }
 
 .container {
@@ -108,7 +105,8 @@ form input,
 form textarea,
 form button {
     display: block;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     margin-bottom: 8px;
     padding: 8px;
 }
